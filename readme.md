@@ -20,10 +20,10 @@
 
 ### task
 
-[x] register (fullname, username, password, gender)
-[] login
-[] hash user password
-[x] get detail music / find music by id
-[x] get all music
-[] authentication on get music endpoint
-[] favorit
+- [x] register (fullname, username, password, gender)
+- [] login
+- [] hash user password
+- [x] get detail music / find music by id
+- [x] get all music
+- [] authentication on get music endpoint
+- [] favorit
