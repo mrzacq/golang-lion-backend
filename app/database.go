@@ -7,7 +7,7 @@ import (
 )
 
 func NewDB() *sql.DB {
-	db, err := sql.Open("postgres", "postgres://postgres:new_password@localhost:5432/lion_database")
+	db, err := sql.Open("postgres", "postgres://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DB_NAME>")
 	helper.Error(err)
 
 	db.SetMaxIdleConns(5)

@@ -4,7 +4,7 @@ Accept: application/json
 ACCESS_TOKEN: token_rahasia
 
 ### Get a music by id
-GET http://localhost:3000/musics/2
+GET http://localhost:3000/musics/1
 Accept: application/json
 ACCESS_TOKEN: token_rahasia
 
